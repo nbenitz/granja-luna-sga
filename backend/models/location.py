@@ -1,7 +1,7 @@
 import enum
 from sqlalchemy import Column, Integer, String, Float, Enum, Date, Text
 
-from backend.models.base import Base
+from models.base import Base
 
 
 class LocationTypeEnum(str, enum.Enum):

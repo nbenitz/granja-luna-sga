@@ -1,8 +1,8 @@
-from backend.db.session import engine
-from backend.models.base import Base
-from backend.models.species import Species
-from backend.models.breed import Breed
-from backend.models.location import Location
+from db.session import engine
+from models.base import Base
+from models.species import Species
+from models.breed import Breed
+from models.location import Location
 
 
 def init_db():

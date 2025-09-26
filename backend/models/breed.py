@@ -2,7 +2,7 @@ import enum
 from sqlalchemy import Column, Integer, String, Float, Enum, ForeignKey
 from sqlalchemy.orm import relationship
 
-from backend.models.base import Base
+from models.base import Base
 
 
 class BreedProductionTypeEnum(str, enum.Enum):
